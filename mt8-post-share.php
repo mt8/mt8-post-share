@@ -32,7 +32,7 @@
 		
 		public function plugins_loaded() {
 			
-			load_plugin_textdomain( "mt8-post-share", false, dirname( plugin_basename( __FILE__ ) ).'/languages' );
+			load_plugin_textdomain( self::TEXT_DOMAIN, false, dirname( plugin_basename( __FILE__ ) ).'/languages' );
 			
 		}
 		
