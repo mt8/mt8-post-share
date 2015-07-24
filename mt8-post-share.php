@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin Name: MT8 Post Share
-	Plugin URI: http://mt8.biz
+	Plugin URI: https://github.com/mt8/mt8-post-share
 	Description: Show SNS button on the post page.
 	Author: mt8.biz
 	Version: 0.1
