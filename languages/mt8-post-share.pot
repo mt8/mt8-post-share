@@ -1,0 +1,48 @@
+# Copyright (C) 2015 MT8 Post Share
+# This file is distributed under the same license as the MT8 Post Share package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MT8 Post Share 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/mt8-post-share\n"
+"POT-Creation-Date: 2015-07-24 08:21:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: mt8-post-share.php:41
+msgid "Share with SNS."
+msgstr ""
+
+#: mt8-post-share.php:77
+msgid "Button appears when you publish the post."
+msgstr ""
+
+#: mt8-post-share.php:86
+msgid "Facebook"
+msgstr ""
+
+#: mt8-post-share.php:94
+msgid "Twitter"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MT8 Post Share"
+msgstr ""
+
+#. #-#-#-#-#  mt8-post-share.pot (MT8 Post Share 0.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  mt8-post-share.pot (MT8 Post Share 0.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://mt8.biz"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show SNS button on the post page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "mt8.biz"
+msgstr ""
