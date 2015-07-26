@@ -24,7 +24,7 @@ Mt8 Post Shareは、投稿ページから記事をシェアできるようにな
 
 1. Latest information
 
-== Frequently Asked Questions == section was found
+== Frequently Asked Questions ==
 
 == Upgrade Notice ==
 
