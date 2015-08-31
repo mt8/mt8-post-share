@@ -1,10 +1,10 @@
 === Mt8 Post Share ===
 Contributors: mt8.biz
 Donate link: http://mt8.biz
-Tags: sns,share
+Tags: sns,share,button
 Requires at least: 4.2
-Tested up to: 4.2.3
-Stable tag: 1.0
+Tested up to: 4.3
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,11 +26,20 @@ Mt8 Post Shareは、投稿ページから記事をシェアできるようにな
 
 == Frequently Asked Questions ==
 
+Not yet.
+
 == Upgrade Notice ==
 
 = 1.0 =
+* First release
+
+= 1.0.1 =
+* Tested up to: 4.3
 
 == Changelog ==
 
 = 1.0.0 =
 * 初版リリース
+
+= 1.0.1 =
+* 4.3での動作確認
