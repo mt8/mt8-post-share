@@ -1,10 +1,10 @@
 <?php
 /*
-	Plugin Name: MT8 Post Share
+	Plugin Name: Simple Post Share
 	Plugin URI: https://github.com/mt8/mt8-post-share
 	Description: Show SNS button on the post page.
 	Author: mt8.biz
-	Version: 1.0.1
+	Version: 2.0.0
 	Author URI: http://mt8.biz
 	Domain Path: /languages
 	Text Domain: mt8-post-share
@@ -26,6 +26,7 @@
 			add_action( 'plugins_loaded', array( &$this, 'plugins_loaded' ) );
 			add_action( 'admin_menu', array( &$this, 'admin_menu' ) );
 			add_action( 'admin_print_styles-post.php', array( &$this, 'admin_print_styles_post_php' ) );
+			add_action( 'enqueue_block_editor_assets', array( $this,'enqueue_block_editor_assets' ) );
 			
 		}
 		
@@ -95,6 +96,15 @@
 			</div>
 			<?php
 			
+		}
+
+		public function enqueue_block_editor_assets() {
+			wp_enqueue_script(
+				'mt8-post-share-block-editor',
+				plugin_dir_url(__FILE__) . 'block-editor.js',
+				array( 'wp-plugins', 'wp-edit-post', 'wp-element', 'wp-components' ),
+				filemtime( plugin_dir_path(__FILE__) . 'block-editor.js' )
+			);
 		}
 		
 	}

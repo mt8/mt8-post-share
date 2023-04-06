@@ -1,10 +1,10 @@
-=== Mt8 Post Share ===
+=== Simple Post Share ===
 Contributors: mt8.biz
-Donate link: http://mt8.biz
+Donate link: https://mt8.biz
 Tags: sns,share,button
 Requires at least: 4.2
-Tested up to: 4.3
-Stable tag: 1.0.1
+Tested up to: 6.2
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,3 +43,6 @@ Not yet.
 
 = 1.0.1 =
 * 4.3での動作確認
+
+= 2.0.0 =
+* Block Editorサポート
